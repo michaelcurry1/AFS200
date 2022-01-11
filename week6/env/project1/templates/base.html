@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Django Auth Tutorial{% endblock %}</title>
+    <style>
+        body {background-color: green;display:flex; flex-direction:column; align-items: center ; margin: 1% ;text-align: center; border-style: dotted dashed solid double; }
+        h1   {color: rgb(17, 0, 255);}
+        p    {color: red;}
+        li   {color:red;}
+        </style>
+</head>
+<body>
+    <main>
+        {% block content %}
+        {% endblock %}
+      </main>
+</body>
+</html>
